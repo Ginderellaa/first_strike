@@ -1,0 +1,35 @@
+.header {
+    background-color: grey;
+    width: 100%;
+    height: 50px;
+}
+.Zutaten {
+    background-color: floralwhite;
+    color:grey;
+    padding: 10px;
+    margin: 25px;
+    font-family: arial;
+
+    }
+.test{
+    color: floralwhite;
+    font-size: 30px;
+    font-family: arial;
+    padding: 25px;
+    margin: 25px;
+}
+.Zubereitung{
+    font-size: 30px;
+    background-color: floralwhite;
+    margin: 10px;
+    color: grey;
+    font-family: arial;
+}
+.fließtext {
+    font-size: 30px;
+    font-family: Arial;
+    color: grey; 
+}
+a {
+    text-decoration: none;
+}
