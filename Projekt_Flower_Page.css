@@ -1,0 +1,25 @@
+.backgroundfront {
+    background-image: url(background\ page.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.parent {
+    background-color:rgba(17, 100, 72, 0.575);
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-flow: row-reverse;
+    align-items: center;
+
+}
+.Menue {
+    font-family: arial;
+    color:azure;
+    font-size: medium;
+    margin: 10px;
+}
+
+
+body {
+    margin: 0px;
+}
