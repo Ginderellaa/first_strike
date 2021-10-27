@@ -1,7 +1,8 @@
 .backgroundfront {
     background-image: url(background_new.jpg);
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
+    background-position-x: right;
 }
 .parent {
     background-color:rgba(17, 100, 72, 0.575);
@@ -92,4 +93,32 @@ body {
     color: azure;
     font-weight: 700;
     padding: 10px;
+}
+.description {
+    width: 400px;
+    height: 1200px;
+    display: flex;
+    flex-flow: column;
+    margin: 50px;
+
+}
+.desfließtext {
+    font-family: Arial;
+    font-size: medium;
+    color: rgba(2, 44, 30, 0.575);
+    margin-top: 10%;
+    font-weight: 700;
+}
+.descript2 {
+    width: 400px;
+    height: 1200px;
+    display: flex;
+    flex-flow: row;
+    margin: 50px;
+}
+.verpackdiv {
+    width: 100%;
+    height: 1200px;
+    display: flex;
+    flex-flow: row;
 }
