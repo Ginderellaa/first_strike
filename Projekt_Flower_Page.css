@@ -1,5 +1,5 @@
 .backgroundfront {
-    background-image: url(background\ page.jpg);
+    background-image: url(background_new.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -8,18 +8,88 @@
     width: 100%;
     height: 100px;
     display: flex;
-    flex-flow: row-reverse;
+    flex-flow: row;
     align-items: center;
+    text-indent: 20px;
+}
 
+.logo {
+    display: flex;
+    align-items: center;
+    margin: 50px;
+    cursor: pointer;
+}
+.logo:hover {
+    background-color:green;
 }
 .Menue {
     font-family: arial;
-    color:azure;
-    font-size: medium;
-    margin: 10px;
+    font-size: large;
+    margin: 50px;
+    text-decoration: none;
+    color: azure;
 }
 
+a {
+    text-decoration: none;
+    color: azure;
+}
 
+.frontheadline {
+    font-family: arial;
+    font-size: 100px;
+    color: rgba(17, 100, 72, 0.575);
+    display: block;
+    margin: 50px;
+}
+
+.fließtext {
+    font-family: arial;
+    font-size: medium;
+    color: azure;
+}
+.child {
+    width: 400px;
+    margin: 50px;
+}
 body {
     margin: 0px;
+}
+.mapchild {
+    width: 1200px;
+    height: 400px;
+    margin: 50px;
+    display: flex;
+    flex-flow: row;
+}
+.fließtextmap {
+    font-family: Arial;
+    font-size: medium;
+    color: rgba(2, 44, 30, 0.575);
+    margin-left: 50px;
+    margin-top: 0%;
+    font-weight: 700;
+}
+
+.mapchild2 {
+    width: 1200px;
+    height: 400px;
+    margin: 50px;
+    display: flex;
+    flex-flow: row;
+}
+
+.footer {
+    background-color: rgba(17, 100, 72, 0.575);
+    text-align: center;
+    width: 100%;
+    height: 100px;
+}
+
+.footertext {
+    font-family: arial;
+    font-size: medium;
+    color: azure;
+    font-weight: 700;
+    padding: 10px;
 }
