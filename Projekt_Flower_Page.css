@@ -133,7 +133,8 @@ body {
     font-family: Arial;
     font-size: medium;
     color: rgba(2, 44, 30, 0.575);
-    margin: 50px;
+    margin: 0px;
+    margin-right: 80px;
     font-weight: 700;
     width: 300px;
 }
