@@ -54,9 +54,13 @@ a {
     font-size: 70px;
     color: rgba(17, 100, 72, 0.575);
     margin: 50px;
-    word-break: break-all;
 }
-
+@media screen and (max-width:1200px) {
+    .frontheadline {
+        word-wrap: break-word;
+    }
+    
+}
 
 .fliesstext {
     font-family: arial;
