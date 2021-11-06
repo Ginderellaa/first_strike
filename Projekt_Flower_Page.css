@@ -58,9 +58,6 @@ a {
     margin: 50px;
 }
 
-body {
-    margin: 0px;
-}
 
 .mapchild {
     width: 1200px;
@@ -119,6 +116,7 @@ body {
     margin-top: 10%;
     font-weight: 700;
     flex-direction: column;
+    text-align: justify;
 }
 
 .verpackdiv {
@@ -138,6 +136,7 @@ body {
     margin-right: 80px;
     font-weight: 700;
     width: 300px;
+    text-align: justify;
 }
 
 form {
@@ -168,5 +167,7 @@ form {
     color: antiquewhite;
 }
 @media screen and (min-width: 300px) {
-    
+    body {
+        margin: 0px;
+    }
 }
