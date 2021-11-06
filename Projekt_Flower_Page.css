@@ -167,4 +167,6 @@ form {
     background-color: rgba(17, 100, 72, 0.575);
     color: antiquewhite;
 }
-@media screen and (max-width: 1400px min-width: 300px) 
+@media screen and (min-width: 300px) {
+    
+}
