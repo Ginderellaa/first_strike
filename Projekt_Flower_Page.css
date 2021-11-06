@@ -118,13 +118,14 @@ body {
     color: rgba(2, 44, 30, 0.575);
     margin-top: 10%;
     font-weight: 700;
+    flex-direction: column;
 }
 
 .verpackdiv {
     width: 100%;
     height: 900px;
     display: flex;
-    flex-flow: row;
+    flex-flow:row;
     overflow: hidden;
     margin: 20px;
 }
@@ -166,4 +167,4 @@ form {
     background-color: rgba(17, 100, 72, 0.575);
     color: antiquewhite;
 }
-
+@media screen and (max-width: 1400px min-width: 300px) 
